@@ -9,16 +9,33 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            // Tab content will go here
+            //tabview creates tab bar interface
+            
+            TodayView() //creating an instance of that view (view object)
+                .tabItem {
+                    Image(systemName: "figure.walk")
+                    Text("Today")
+                }
+            
+            TrendsView()
+                .tabItem {
+                    Image(systemName: "chart.line.uptrend.xyaxis") //systemName are a part of apple's library of symbols
+                    Text("Trends")
+                }
+            
+            GoalsView()
+                .tabItem {
+                    Image(systemName: "target")
+                    Text("Goals")
+                }
+            
+            FriendsView()
+                .tabItem {
+                    Image(systemName: "person.2.fill")
+                    Text("Friends")
+                }
         }
-        .padding()
     }
-}
-
-#Preview {
-    ContentView()
 }

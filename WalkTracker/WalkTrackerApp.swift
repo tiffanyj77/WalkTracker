@@ -10,8 +10,8 @@ import SwiftUI
 @main
 struct WalkTrackerApp: App {
     var body: some Scene {
-        WindowGroup {
+        WindowGroup { //what does WindowGroup do
             ContentView()
         }
-    }
+    } //remove preview to have smoother, faster experience
 }

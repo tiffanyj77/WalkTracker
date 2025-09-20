@@ -89,6 +89,6 @@ The app uses HealthKit. On device, grant permissions when prompted.
 
 **License:** MIT  
 
-**Author:** Your Name  
-- [LinkedIn](https://www.linkedin.com/in/yourprofile)  
-- your.email@example.com  
+**Author:** Tiffany Jia
+- [LinkedIn](https://www.linkedin.com/in/tiffanyjia77)  
+- tjia38@gatech.edu 

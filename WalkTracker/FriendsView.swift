@@ -21,21 +21,6 @@ struct FriendsView: View {
     var body: some View {
         NavigationView {
             
-            
-                ZStack {
-                    // Blue background
-                    Rectangle()
-                        .fill(Color.blue)
-                        .frame(width: 512, height: 512)
-                    
-                    // Walking figure icon
-                    Image(systemName: "figure.walk")
-                        .font(.system(size: 200, weight: .medium))
-                        .foregroundColor(.white)
-                }
-                .cornerRadius(115) // Rounded corners like iOS icons
-            
-            
             List(friends.sorted { $0.steps > $1.steps }.enumerated().map { (index, friend) in
                 (rank: index + 1, friend: friend)
             }, id: \.friend.id) { item in

@@ -25,9 +25,9 @@
 			path = WalkTracker;
 			sourceTree = "<group>";
 		};
-		D8404BEB2E8D230E00CE4FBA /* Screenshots */ = {
+		D8404BEB2E8D230E00CE4FBA /* screenshots */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Screenshots;
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -47,7 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				D8404BEC2E8D233100CE4FBA /* README.md */,
-				D8404BEB2E8D230E00CE4FBA /* Screenshots */,
+				D8404BEB2E8D230E00CE4FBA /* screenshots */,
 				D86D270A2E70DB0100252ED7 /* WalkTracker.xcdatamodeld */,
 				D8402E832E742A2400A7C0BD /* CoreDataManager.swift */,
 				D824E2002E56465B005786DD /* WalkTracker */,
@@ -80,7 +80,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				D824E2002E56465B005786DD /* WalkTracker */,
-				D8404BEB2E8D230E00CE4FBA /* Screenshots */,
+				D8404BEB2E8D230E00CE4FBA /* screenshots */,
 			);
 			name = WalkTracker;
 			packageProductDependencies = (

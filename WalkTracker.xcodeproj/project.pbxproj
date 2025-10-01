@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D8402E842E742A2400A7C0BD /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8402E832E742A2400A7C0BD /* CoreDataManager.swift */; };
+		D8404BED2E8D233100CE4FBA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D8404BEC2E8D233100CE4FBA /* README.md */; };
 		D86D270C2E70DB0100252ED7 /* WalkTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D86D270A2E70DB0100252ED7 /* WalkTracker.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D824E1FE2E56465B005786DD /* WalkTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8402E832E742A2400A7C0BD /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		D8404BEC2E8D233100CE4FBA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D86D270B2E70DB0100252ED7 /* WalkTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WalkTracker.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -21,6 +23,11 @@
 		D824E2002E56465B005786DD /* WalkTracker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = WalkTracker;
+			sourceTree = "<group>";
+		};
+		D8404BEB2E8D230E00CE4FBA /* Screenshots */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -39,6 +46,8 @@
 		D824E1F52E56465B005786DD = {
 			isa = PBXGroup;
 			children = (
+				D8404BEC2E8D233100CE4FBA /* README.md */,
+				D8404BEB2E8D230E00CE4FBA /* Screenshots */,
 				D86D270A2E70DB0100252ED7 /* WalkTracker.xcdatamodeld */,
 				D8402E832E742A2400A7C0BD /* CoreDataManager.swift */,
 				D824E2002E56465B005786DD /* WalkTracker */,
@@ -71,6 +80,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				D824E2002E56465B005786DD /* WalkTracker */,
+				D8404BEB2E8D230E00CE4FBA /* Screenshots */,
 			);
 			name = WalkTracker;
 			packageProductDependencies = (
@@ -118,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8404BED2E8D233100CE4FBA /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

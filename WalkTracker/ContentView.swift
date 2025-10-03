@@ -10,7 +10,6 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            // Tab content will go here
             //tabview creates tab bar interface
             
             TodayView() //creating an instance of that view (view object)

@@ -81,7 +81,6 @@ struct TodayView: View {
                                 .foregroundColor(.secondary)
                         }
                     }
-                    // Add this right after your "Distance and calories row" HStack
                     VStack(spacing: 20) {
                         Text("Calories: \(healthManager.caloriesBurned, specifier: "%.1f")")
                             .font(.title2)

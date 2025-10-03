@@ -68,8 +68,6 @@ class HealthManager: ObservableObject {
     }
     
     func saveTodaysStats() {
-        // You would need to pass in your CoreDataManager instance
-        // For now, create a new instance (not ideal, but works for testing)
         let coreDataManager = CoreDataManager()
         
         coreDataManager.saveDailyWalkData(
@@ -137,8 +135,6 @@ class HealthManager: ObservableObject {
         // Change this line in fetchTodaySteps:
         let endOfDay = Date()  // Use current time instead of tomorrow
 
-        // Remove this line:
-        // let endOfDay = calendar.date(byAdding: .day, value: 1, to: startOfDay)!
         
         let predicate = HKQuery.predicateForSamples(withStart: startOfDay, end: endOfDay, options: .strictStartDate)
         
